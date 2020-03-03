@@ -1,14 +1,27 @@
 package com.appli.webuy;
 
 public class Article {
+    private String Nom;
     private double horsPromoPrice;
     private double PromoPrice;
     private int QteMin;
     private int QteNecessaire;
     private int QteRestante;
 
-    public  Article (){
+    public  Article (String nom, double horsPromo, double promoPrice, int qteMin, int QteNecessaire, int QteRestante){
+        this.Nom=nom;
+        this.horsPromoPrice=horsPromo;
+        this.PromoPrice=promoPrice;
+        this.QteMin=qteMin;
+        this.QteNecessaire=QteNecessaire;
+        this.QteRestante=QteRestante;
+    }
+    public String getNom() {
+        return Nom;
+    }
 
+    public void setNom(String nom) {
+        Nom = nom;
     }
     public double getHorsPromoPrice() {
         return horsPromoPrice;

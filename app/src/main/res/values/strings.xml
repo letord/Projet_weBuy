@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WeBuy</string>
+    <string name="adress_text">adress : </string>
+    <string name="promo_text">promo : </string>
 </resources>
